@@ -10,7 +10,6 @@ https://github.com/user-attachments/assets/ff345733-bfcd-4e7a-bb3b-e4a554b87d39
 - **Geographic Visualization**: Interactive map showing node locations
 - **Statistical Analysis**: Detailed DHT network metrics
 - **Modern Architecture**: Node.js Backend + Next.js Frontend
-- **Containerization**: Fully dockerized for easy deployment
 
 ## 🚀 Technologies
 
@@ -30,25 +29,25 @@ https://github.com/user-attachments/assets/ff345733-bfcd-4e7a-bb3b-e4a554b87d39
 
 ## 📦 Installation
 
-1. Clone the repository
-2. Start with Docker Compose:
-   docker-compose up --build
+### Backend
+1. Navigate to backend directory:
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+   ```
+
+### Frontend
+1. Navigate to frontend directory:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
 
 The system will be available at:
 - Frontend: http://localhost:3001
 - API: http://localhost:3000
-
-## 🔧 Manual Setup (without Docker)
-
-### Backend
-1. Navigate to backend directory
-2. Run npm install
-3. Start with npm start
-
-### Frontend
-1. Navigate to frontend directory
-2. Run npm install
-3. Start with npm run dev
 
 ## 📡 API Endpoints
 
@@ -71,20 +70,3 @@ The system will be available at:
 - Node uptime
 - Appearance frequency
 - Country-based statistics
-
-## 🛠️ Development
-
-To contribute to the project:
-
-1. Fork the repository
-2. Create your feature branch
-3. Make your changes
-4. Submit a Pull Request
-
-## 📄 License
-
-MIT - See LICENSE file for details
-
-## 📞 Support
-
-To report bugs or suggest features, please open an issue in the GitHub repository.
