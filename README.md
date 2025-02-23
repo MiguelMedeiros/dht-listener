@@ -2,6 +2,8 @@
 
 A real-time monitoring system for the BitTorrent DHT (Distributed Hash Table) network with geographic node visualization.
 
+https://github.com/user-attachments/assets/ff345733-bfcd-4e7a-bb3b-e4a554b87d39
+
 ## 🌟 Features
 
 - **Real-time Monitoring**: Continuous tracking of active DHT nodes
