@@ -1,0 +1,43 @@
+{
+  "name": "dht-listener",
+  "version": "1.0.0",
+  "description": "A Mainline DHT listener that monitors and logs DHT network activity in real-time",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "dht",
+    "bittorrent",
+    "p2p",
+    "distributed",
+    "hash",
+    "table",
+    "monitoring"
+  ],
+  "author": "Miguel Medeiros",
+  "license": "MIT",
+  "dependencies": {
+    "bencode": "^2.0.1",
+    "bittorrent-dht": "^11.0.9",
+    "express": "^4.21.2",
+    "geoip-lite": "^1.4.10",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguel-medeiros/dht-listener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miguel-medeiros/dht-listener/issues"
+  },
+  "homepage": "https://github.com/miguel-medeiros/dht-listener#readme"
+}
