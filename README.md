@@ -29,21 +29,23 @@ https://github.com/user-attachments/assets/ff345733-bfcd-4e7a-bb3b-e4a554b87d39
 
 ## 📦 Installation
 
-### Backend
-1. Navigate to backend directory:
-   ```bash
-   cd backend
-   npm install
-   npm run dev
-   ```
+## Installing All Dependencies
 
-### Frontend
-1. Navigate to frontend directory:
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+Before starting the project, run the following command in the project root to install dependencies for the root, backend, and frontend:
+
+```bash
+npm run install-all
+```
+## How to Run the Project
+
+Run the start script in the project root:
+
+```bash
+npm run start
+```
+
+This will start both the "backend" and "frontend" directories concurrently.
+
 
 The system will be available at:
 - Frontend: http://localhost:3001
